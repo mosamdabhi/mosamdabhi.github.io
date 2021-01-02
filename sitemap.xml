@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
   <url>
     <loc>http://mosamdabhi.github.io/</loc>
+   <lastmod>2020-01-01</lastmod>
   </url>
-  
-  <!-- REPOS -->
-  <url>
-    <loc>https://mosamdabhi.github.io/mosam_resume_v2.pdf</loc>
-  </url>
-
-  <url>
-    <loc>https://sites.google.com/view/dabhi-two-views</loc>
-  </url>
-
-  <url>
-    <loc>http://www.roboticsproceedings.org/rss15/p61.pdf</loc>
-  </url>  
-
-  <url>
-    <loc>http://www.roboticsproceedings.org/rss15/p61.pdf</loc>
-  </url>  
-
-  <url>
-    <loc>https://link.springer.com/chapter/10.1007/978-3-030-33950-0_45</loc>
-  </url>
-
-  <url>
-    <loc>https://www.ri.cmu.edu/wp-content/uploads/2019/06/REPC_TR.pdf</loc>
-  </url>
-
 </urlset>
