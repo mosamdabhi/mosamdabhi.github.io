@@ -73,7 +73,7 @@
         <div class='container'>
             <div class='row'>
                 <div class="col-sm-3 offset-sm-1">
-                    <img src='imgs/profile.jpg' class='img-fluid' id='portrait'>
+                    <img src='imgs/profile2.jpg' class='img-fluid' id='portrait'>
                 </div>
 
                 <div class="col">
@@ -106,10 +106,14 @@
                     Simon Lucey, and Laszlo Jeni at CI2CV Computer Vision Lab and Computational Behavior Lab. Previously, I finished my Masters at CMU under the guidance of Simon Lucey. Before that, I worked as a Research Assistant with Nathan Michael at Resilient Intelligent Systems Lab (RISLab). </p>
                     <p>
 
+                    Using my background in robotics, computer vision, and machine learning, I am interested in uncovering the causal reasoning behind every decision that we make that consistues 
+                    human intelligence. Unconvering such causal artifacts of biological intelligence could be the key to 
+                    developing artifically intelligent systems that can "think", "reason", and "imagine" for themselves. 
+                    Causal intelligence also holds the key to solve the problems of Out-of-distribution (O.O.D.) generalization, lifelong learning via abstraction,
+                    and the problem of handling catastrophic forgetting, prevelant in modern machine learning methods.
 
-
-                    I am interested in solving vision problems using self-supervised learning techniques. The lasting impact of scene understanding research will not be confined within the expensive labs of industry and academia — it will be democratized within the hands of human consumers and intelligent robots operating in the real world. I view research through a long-term lens which allows me to focus on designing algorithms with real-world transferability in mind. In the long term, my research goal is to automate geometric factorization and reconstruction of the world from image/video data, in turn to improve data and learning efficiency in visual recognition systems.                    
-                </p>
+                    My goal is to create the intelligent mechanisms that have the potential to
+                    advancing scientific discovery and understanding the fundamental mechanisms of life.                </p>
 
                 
 
@@ -117,13 +121,21 @@
                     <h1>News</h1>
                 </div>
 
+                <!-- <div class='row vspace-top-news'>
+                    <div class="col-sm-2 news-date">
+                        July 2022
+                    </div>
+                    <div class="col">
+                        Our paper "High Fidelity 3D Reconstructions with Limited Physical Views" is accepted at <a href="https://3dv2021.surrey.ac.uk/">3DV 2021!</a> Watch my <a href="https://youtu.be/Jx7mJ_D88gg">2 min.</a> talk and <a href="https://youtu.be/Dl8PkeVucO8">10 min.</a> talks here.
+                    </div>
+                </div>                 -->
 
                 <div class='row vspace-top-news'>
                     <div class="col-sm-2 news-date">
                         May 2022
                     </div>
                     <div class="col">
-                    Apple again! Rejoining Apple for third conseuctive summer to advance the field of semi- and self-supervised learning.
+                    Apple again! Rejoining Apple for third conseuctive summer to advance the field of meta learning.
                     </div>
                 </div>                   
                 <!-- - List of news -!> -->
@@ -168,6 +180,38 @@
                 </div>
 
                 <!- List of publications -!>
+
+                <div class='row vspace-top'>
+                    <div class="col-sm-3">
+                        <img src='publications/neurips22/overview.gif' class='img-fluid'>                        
+                    </div>
+
+                    <div class="col">
+                        <div class='paper-title'>
+                            Multiview-bootstrapping in the Wild (MBW)
+                        </div>
+                        <div class='paper-desc'>
+                            Under review
+                        </div>
+                        <div class='paper-authors'>
+                        <b>Mosam Dabhi</b>, Chaoyang Wang, Tim Clifford, Laszlo Jeni, Ian Fasel, Simon Lucey 
+                        </div>
+                        <div>
+                        <b>Keywords: Low-shot learning, O.O.D. detection </b>
+                        </div>
+                        
+                        <div>
+                            <b>TLDR</b>: This work generates 2D, 3D keypoint labels for data captured in the wild during a casual zoo visit! We release this zoo dataset!
+                        </div>
+
+
+
+                        <div>
+                            <a href="https://github.com/mosamdabhi/MBW-Data">[Dataset]</a>
+                        </div>
+                    </div>
+                </div>
+                
                 <div class='row vspace-top'>
                     <div class="col-sm-3">
                         <img src='publications/3dv21/overview_final.png' class='img-fluid'>                        
@@ -183,6 +227,12 @@
                         <div class='paper-authors'>
                         <b>Mosam Dabhi</b>, Chaoyang Wang, Kunal Saluja, Laszlo Jeni, Ian Fasel, Simon Lucey 
                         </div>
+                        <div>
+                            <b>Keywords: Multi-view 2D to 3D, NRSfM </b>
+                            </div>                        
+                        <div>
+                            <b>TLDR</b>: This work generates 3D keypoint labels using 2D keypoints provided from just 2 uncalibrated moving cameras, compared to > 100 calibrated static cameras!
+                        </div>                        
                         <div>
                             <a href="https://sites.google.com/view/high-fidelity-3d-neural-prior">[Project page]</a>
                             <a href="https://arxiv.org/pdf/2110.11599.pdf">[Paper]</a>
