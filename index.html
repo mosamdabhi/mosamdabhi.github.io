@@ -193,6 +193,14 @@ layout: null
                 <span>Code</span>
               </a>
               {% endif %}
+
+              {% if publication.data %}
+              <a class="external-link button is-small is-ghost" href="{{ publication.data }}">
+                <span class="icon"><i class="fa fa fa-images"></i></span>
+                <span>Dataset</span>
+              </a>
+              {% endif %}
+
             </div>
             <!--/ Publication Links. -->
           </div>

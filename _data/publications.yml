@@ -4,6 +4,7 @@
   description: "By enforcing temporal along with spatial consistencies, we can carry out auto-labeling at scale in a low-shot learning fashion."
   project_page: "https://multiview-bootstrapping-in-wild.github.io"
   github: mosamdabhi/mbw
+  data: https://github.com/mosamdabhi/mbw-data
   arxiv: 2210.01721
   image: mbw_before.jpg
   paper: https://arxiv.org/pdf/2210.01721.pdf
