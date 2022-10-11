@@ -1,0 +1,74 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+# Using my background in robotics, computer vision, and machine learning, I am interested in uncovering the causal reasoning to develop
+# artifically intelligent (AI) systems that can "think", "reason", and "imagine" for themselves. Such an intelligence should hold the key to solve the problems of Out-of-distribution (O.O.D.) generalization, 
+# lifelong learning via abstraction, and the problem of handling catastrophic forgetting, prevelant in modern AI methods. 
+
+title: Mosam Dabhi
+name: Mosam Dabhi
+position: PhD Student
+email: mosam.dabhi@gmail.com
+description: >-
+
+  I am a PhD student at the Robotics Institute, Carnegie Mellon University (CMU) where I investigate causality within machine learning, and geometrical priors within computer vision.
+
+   
+  Previously, I finished my Masters at CMU with Simon Lucey.
+
+
+  In my opinion: "AI could enable the creation of a versatile language through which all the existing scientific fields could be expressed."
+
+
+  
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://mosamdabhi.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: mosamdabhi
+github_username: mosamdabhi
+google_scholar: b14VbHEAAAAJ
+google_analytics: G-M3G9WN9KLK
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+sass:
+  style: compact
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

@@ -1,427 +1,232 @@
+---
+layout: null
+---
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
+
 <head>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-M6TZK3G');</script>
-    <!-- End Google Tag Manager -->
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M3G9WN9KLK"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>{{ site.name }}</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-      gtag('config', 'G-M3G9WN9KLK');
-    </script>    
+    function gtag() {
+      dataLayer.push(arguments);
+    }
 
-    <title>Mosam Dabhi</title>
+    gtag('js', new Date());
 
-    <!-- Meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    gtag('config', '{{ site.google_analytics }}');
+  </script>
 
-    <!-- Bootstrap CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@700&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="{{ '/css/fontawesome.all.min.css' | relative_url }}" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" rel="stylesheet">
+  <link href="{{ '/css/bulma.min.css' | relative_url }}" rel="stylesheet">
+  <link href="{{ '/css/index.css' | relative_url }}" rel="stylesheet">
 
-    <!-- Custom Styles -->
-    <style>
-          body {
-            font-family: 'sans-serif';
-            font-size: 16px;
-            background-color: #FFFFFF;
-            color: #4F6071;
-          }
-          #header {
-            background-color: #f4f4f4;
-            /*background-color: #FFFFFF;*/
-            display: flex;
-            align-items: flex-end;
-            padding-top:60px;
-            padding-bottom:60px;
-          }
-          #footer {
-            background-color: #FFFFFF;
-            padding:60px;
-          }
-          #portrait {
-            border: 3px solid white;
-          }
-          #header-text {
-            margin-top: 60px;
-            margin-left: 220px;
-          }
-          #header-text-name {
-            font-size: 40px;
-          }
-          #header-text-email {
-            font-size: 20px;
-            font-style: italic;
-          }
-          .header-text-desc {
-            font-size: 20px;
-          }
-          .vspace-top {
-            margin-top: 30px;
-          }
-          .vspace-top-news {
-              margin-top: 15px;
-          }
-          .paper-image {
-            width: 150px;
-          }
-          .news-date {
-              font-weight: bold;
-          }
-          .paper-title {
-            font-weight: bold;
-          }
-          .paper-authors {
-            font-style: italic;
-          }
-    </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script defer src="{{ '/js/fontawesome.all.min.js' | relative_url }}"></script>
+  <script src="{{ '/js/index.js' | relative_url }}"></script>
 </head>
 
 <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M6TZK3G"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 
-    <div id='header'>
-        <div class='container'>
-            <div class='row'>
-                <div class="col-sm-3 offset-sm-1">
-                    <img src='imgs/profile2.jpg' class='img-fluid' id='portrait'>
-                </div>
+  <section class="hero">
+    <div class="hero-body container is-max-desktop">
+      <div class="columns is-vcentered">
 
-                <div class="col">
-                  <div id='header-text-name'>
-                      Mosam Dabhi
-                  </div>
-                  <div id='header-text-email'>
-                    mosam (at) cmu (dot) edu
-                  </div>
-                  <div>
-                    <a href="https://github.com/mosamdabhi">[GitHub]</a>
-                    <a href="https://scholar.google.com/citations?user=b14VbHEAAAAJ&hl=en">[Google Scholar]</a>
-                    <a href="https://www.linkedin.com/in/mosam-dabhi-9395b09a/">[LinkedIn]</a>
-                    <a href="https://twitter.com/mosamdabhi">[Twitter]</a>
-                    <a href="docs/mosam_resume.pdf">[Download CV]</a>
-                  </div>
-
-                </div>
-            </div>
+        <div class="column is-4">
+          <div class="portrait">
+            <img src="{{ '/images/portrait.jpg' | relative_url }}" />
+          </div>
         </div>
-    </div>
 
+        <div class="column">
+          <h1 class="title">
+            <b>{{ site.name }}</b>
+          </h1>
+          <div class="content has-text-justified">
+            {{ site.description | markdownify }}
+            <div class="buttons">
+              <a class="external-link button is-light" href="docs/mosam_resume.pdf">
+                <span class="icon"><i class="fas fa-file"></i></span>
+                <span>CV</span>
+              </a>
 
-    <div class='container'>
-        <div class='row vspace-top'>
-            <div class='col offset-sm-1'>
-                <h1>Bio</h1>
-                <p>
-                    I am a PhD student at the Robotics Institute, Carnegie Mellon University (CMU) working with
-                    Simon Lucey, and Laszlo Jeni at CI2CV Computer Vision Lab and Computational Behavior Lab. Previously, I finished my Masters at CMU under the guidance of Simon Lucey. Before that, I worked as a Research Assistant with Nathan Michael at Resilient Intelligent Systems Lab (RISLab). </p>
-                    <p>
+              <a class="external-link button is-light"
+                href="https://scholar.google.com/citations?user={{ site.google_scholar }}">
+                <span class="icon"><i class="ai ai-google-scholar"></i></span>
+                <span>Scholar</span>
+              </a>
 
-                    Using my background in robotics, computer vision, and machine learning, I am interested in uncovering the causal reasoning behind every decision that we make that consistues 
-                    human intelligence. Unconvering such causal artifacts of biological intelligence could be the key to 
-                    developing artifically intelligent systems that can "think", "reason", and "imagine" for themselves. 
-                    Causal intelligence also holds the key to solve the problems of Out-of-distribution (O.O.D.) generalization, lifelong learning via abstraction,
-                    and the problem of handling catastrophic forgetting, prevelant in modern machine learning methods. My goal is to create the intelligent mechanisms that have the potential to
-                    advancing scientific discovery and understanding the fundamental mechanisms of life.                </p>
+              <a class="external-link button is-light" href="https://github.com/{{ site.github_username }}">
+                <span class="icon"><i class="fab fa-github"></i></span>
+                <span>Github</span>
+              </a>
 
-                    <p> In my opinion: <i>AI is not a field in itself, it is a way to express all the other scientific fields.</i>
-
-                
-
-                <div class='vspace-top'>
-                    <h1>News</h1>
-                </div>
-
-                <!-- <div class='row vspace-top-news'>
-                    <div class="col-sm-2 news-date">
-                        July 2022
-                    </div>
-                    <div class="col">
-                        Our paper "High Fidelity 3D Reconstructions with Limited Physical Views" is accepted at <a href="https://3dv2021.surrey.ac.uk/">3DV 2021!</a> Watch my <a href="https://youtu.be/Jx7mJ_D88gg">2 min.</a> talk and <a href="https://youtu.be/Dl8PkeVucO8">10 min.</a> talks here.
-                    </div>
-                </div>                 -->
-
-		    
-                <div class='row vspace-top-news'>
-                    <div class="col-sm-2 news-date">
-                        Sept. 2022
-                    </div>
-                    <div class="col">				 
-                        <b>NeurIPS 2022</b>: Excited to share the acceptance of our work in <a href="https://openreview.net/forum?id=i1bFPSw42W0">NeurIPS 2022</a>. TL;DR: This work generates 2D, 3D labels for computer vision tasks over data captured in the wild using uncalibrated cameras! We release a <a href="https://github.com/mosamdabhi/MBW-Data">zoo dataset</a> as well as the corresponding codebase.</a>
-                    </div>
-                </div>    		    
-		    
-                <div class='row vspace-top-news'>
-                    <div class="col-sm-2 news-date">
-                        Aug. 2022
-                    </div>
-                    <div class="col">
-                        Our work from <a href="https://ieeexplore.ieee.org/abstract/document/9665845/">3DV 2021</a> was featured on this post, titled <a href="https://www.adelaide.edu.au/aiml/news/list/2022/08/01/new-ai-tech-to-bring-human-like-understanding-of-our-3d-world">"New AI tech to bring human-like understanding of our 3D world."</a>
-                    </div>
-                </div>                   
-
-
-                <div class='row vspace-top-news'>
-                    <div class="col-sm-2 news-date">
-                        May 2022
-                    </div>
-                    <div class="col">
-                        Happy to share that I am rejoining Apple for third consecutive summer to advance the field of self-supervised and meta-learning.
-                    </div>
-                </div>                   
-                <!-- - List of news -!> -->
-                <div class='row vspace-top-news'>
-                    <div class="col-sm-2 news-date">
-                        Oct. 2021
-                    </div>
-                    <div class="col">
-                        <b>3DV 2021</b>: Our paper "High Fidelity 3D Reconstructions with Limited Physical Views" is accepted at <a href="https://3dv2021.surrey.ac.uk/">3DV 2021!</a> Watch my <a href="https://youtu.be/Jx7mJ_D88gg">2 min.</a> talk and <a href="https://youtu.be/Dl8PkeVucO8">10 min.</a> talks here.
-                    </div>
-                </div>
-
-                <div class='row vspace-top-news'>
-                    <div class="col-sm-2 news-date">
-                        Aug. 2021
-                    </div>
-                    <div class="col">
-                    I have accepted the offer to pursue Ph.D. at the Robotics Institute, Carnegie Mellon University.
-                    </div>
-                </div> 
-
-                <div class='row vspace-top-news'>
-                    <div class="col-sm-2 news-date">
-                        May 2021
-                    </div>
-                    <div class="col">
-                    I will rejoin Ian Fasel's group at the Apple over the summer and continue working on deep learning for machine vision.
-                    </div>
-                </div>                
-
-                <div class='row vspace-top-news'>
-                    <div class="col-sm-2 news-date">
-                        May 2021
-                    </div>
-                    <div class="col">
-                    I just graduated with Masters at CMU with my thesis on <a href="https://www.ri.cmu.edu/wp-content/uploads/2021/05/ri_msr_thesis_dabhi.pdf"> Multi-view NRSfM: Affordable Setup for High-Fidelity 3D Reconstruction</a>.
-                    </div>
-                </div>
-
-                <div class='row vspace-top-news'>
-                    <div class="col-sm-2 news-date">
-                        May 2020
-                    </div>
-                    <div class="col">
-                        I joined Apple as a Machine Learning Research Scientist Intern. 
-                    </div>
-                </div>                   
-
-                <div class='vspace-top'>
-                    <h1>Publications</h1>
-                </div>
-
-                <!- List of publications -!>
-
-                <div class='row vspace-top'>
-                    <div class="col-sm-3">
-                        <img src='publications/neurips22/overview.gif' class='img-fluid'>                        
-                    </div>
-
-                    <div class="col">
-                        <div class='paper-title'>
-                            MBW: Multiview-bootstrapping in the Wild
-                        </div>
-                        <div class='paper-desc'>
-                            NeurIPS 2022
-                        </div>
-                        <div class='paper-authors'>
-                        <b>Mosam Dabhi</b>, Chaoyang Wang, Tim Clifford, Laszlo Jeni, Ian Fasel, Simon Lucey 
-                        </div>
-                        <div>
-                        <b>Keywords: Low-shot learning, O.O.D. detection </b>
-                        </div>
-                        
-                        <div>
-                            <b>TLDR</b>: This work generates 2D, 3D keypoint labels for data captured in the wild during a casual zoo visit! We release this zoo dataset!
-                        </div>
-
-
-                        <div>
-                            <a href="https://github.com/mosamdabhi/MBW">[Code]</a>												
-                            <a href="https://openreview.net/forum?id=i1bFPSw42W0">[Open Review]</a>
-                            <a href="https://arxiv.org/abs/2210.01721">[arXiv]</a>								
-                            <a href="https://github.com/mosamdabhi/MBW-Data">[Dataset]</a>
-				
-                        </div>
-                    </div>
-                </div>
-                
-                <div class='row vspace-top'>
-                    <div class="col-sm-3">
-                        <img src='publications/3dv21/overview_final.png' class='img-fluid'>                        
-                    </div>
-
-                    <div class="col">
-                        <div class='paper-title'>
-                            High Fidelity 3D Reconstructions with Limited Physical Views
-                        </div>
-                        <div class='paper-desc'>
-                            3DV 2021
-                        </div>
-                        <div class='paper-authors'>
-                        <b>Mosam Dabhi</b>, Chaoyang Wang, Kunal Saluja, Laszlo Jeni, Ian Fasel, Simon Lucey 
-                        </div>
-                        <div>
-                            <b>Keywords: Multi-view 2D to 3D, NRSfM </b>
-                            </div>                        
-                        <div>
-                            <b>TLDR</b>: This work generates 3D keypoint labels using 2D keypoints provided from just 2 uncalibrated cameras, compared to > 100 calibrated cameras!
-                        </div>                        
-                        <div>
-                            <a href="https://www.adelaide.edu.au/aiml/news/list/2022/08/01/new-ai-tech-to-bring-human-like-understanding-of-our-3d-world">[Featured Post]</a>
-                            <a href="https://youtu.be/Jx7mJ_D88gg">[Video]</a>
-                            <a href="https://sites.google.com/view/high-fidelity-3d-neural-prior">[Project page]</a>
-                            <a href="https://ieeexplore.ieee.org/abstract/document/9665845">[Paper]</a>
-                            
-                            <!-- <a href="https://youtu.be/Dl8PkeVucO8">[Full talk (Deep dive)]</a> -->
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class='row vspace-top'>
-                    <div class="col-sm-3">
-                        <img src='publications/rss2019/rss19_glory.png' class='img-fluid'>
-                    </div>
-
-                    <div class="col">
-                        <div class='paper-title'>
-                            Real-Time Information-Theoretic Exploration with Gaussian Mixture Model Maps 
-                        </div>
-                        <div class='paper-desc'>
-                            RSS 2019
-                        </div>
-                        <div class='paper-authors'>
-                            Wennie Tabib, Kshitij Goel, John Yao, <b>Mosam Dabhi</b>, Curtis Boirum, Nathan Michael
-                        </div>
-                        <div>
-                            <a href="http://www.roboticsproceedings.org/rss15/p61.pdf">[Paper]</a>
-                            <a href="https://youtu.be/-XADDZa4J0Y">[Project Video]</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class='row vspace-top'>
-                    <div class="col-sm-3">
-                        <img src='publications/iser2018/overview.png' class='img-fluid'>
-                    </div>
-
-                    <div class="col">
-                        <div class='paper-title'>
-                            Fast and Agile Vision-Based Flight with Teleoperation and Collision Avoidance on a Multirotor
-                        </div>
-                        <div class='paper-desc'>
-			                 ISER 2018
-                        </div>
-                        <div class='paper-authors'>
-                            Alex Spitzer, Xuning Yang, John Yao, Aditya Dhawale, Kshitij Goel, <b>Mosam Dabhi</b>, Matt Collins, Curtis Boirum, Nathan Michael
-                        </div>
-                        <div>                            
-                            <a href="https://link.springer.com/chapter/10.1007/978-3-030-33950-0_45">[Paper]</a>
-                            <a href="https://youtu.be/_-KmGhP0HTQ">[Project Video]</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class='row vspace-top'>
-                    <div class="col-sm-3">
-                        <img src='publications/techreport/overview.png' class='img-fluid'>                   
-                    </div>
-
-                    <div class="col">
-                        <div class='paper-title'>
-                            Aggressive Flight Performance using Robust Experience-driven Predictive Control Strategies: Experimentation and Analysis
-                        </div>
-                        <div class='paper-desc'>
-                            Technical Report, Robotics Institute Repository
-                        </div>
-                        <div class='paper-authors'>
-                            <b>Mosam Dabhi</b>, Alex Spitzer, Nathan Michael
-                        </div>
-                        <div>
-                            <a href="https://www.ri.cmu.edu/wp-content/uploads/2019/06/REPC_TR.pdf">[Tech. Report]</a>
-                            <a href="https://youtu.be/h9CG5R539gI">[Video]</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class='row vspace-top'>
-                    <div class="col-sm-3">
-                        <img src='publications/poster2016/overview.png' class='img-fluid'>
-                    </div>
-
-                    <div class="col">
-                        <div class='paper-title'>
-			    Planning Aggressive, Dynamically Feasible and Optimal Trajectories for Autonomous Vehicles in Cluttered Environments using Mixed Integer Programming
-                        </div>
-                        <div class='paper-desc'>
-				Robotics Institute Summer Scholars Poster Presentation 2016
-                        </div>
-                        <div class='paper-authors'>
-                           <b>Mosam Dabhi</b>, Vishnu Desaraju, Nathan Michael
-                        </div>
-                        <div>
-                            <a href="https://riss.ri.cmu.edu/wp-content/uploads/2016/09/2016-RISS-Poster-DABHI_Mosam.pdf">[Poster]</a>
-                            <a href="https://youtu.be/hxcAvJpDZKg">[Video]</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class='row vspace-top'>
-                    <div class="col-sm-3">
-                        <img src='publications/poster2017/overview.png' class='img-fluid'>
-                    </div>
-
-                    <div class="col">
-                        <div class='paper-title'>
-		            Implementation of Experience-driven Predictive Control on Computationally Constrained Platform
-                        </div>
-                        <div class='paper-desc'>
-				Robotics Institute Summer Scholars Poster Presentation 2017
-                        </div>
-                        <div class='paper-authors'>
-                            <b>Mosam Dabhi</b>, Nathan Michael
-                        </div>
-                        <div>
-                            <a href="https://riss.ri.cmu.edu/wp-content/uploads/2017/09/2017-RISS-Poster-DABHI-Mosam.compressed.pdf">[Poster]</a>                            
-                        </div>
-                    </div>
-                </div>
+              <a class="external-link button is-light" href="https://twitter.com/{{ site.twitter_username }}">
+                <span class="icon"><i class="fab fa-twitter"></i></span>
+                <span>Twitter</span>
+              </a>
             </div>
+
+          </div>
         </div>
+      </div>
     </div>
+  </section>
+
+  <!-- News. -->
+  <div class="hr">
+    <div class="container">
+      <hr>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+
+      <h2 class="title is-3">News</h2>
+      <div class="content">
+        <ul>
+          {% for news in site.data.news %}
+          <li>
+            <b>{{ news.date }}</b>: {{ news.description | markdownify | remove: '<p>' | remove: '</p>' }}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <h2 class="title is-3">Publications</h2>
+
+      {% for publication in site.data.publications %}
+      <div class="publication-block columns">
+
+        <div class="column is-3">
+          <div class="publication-image {% if publication.image_mouseover %}publication-mousecell{% endif %}">
+            {% if publication.image_mouseover contains "mp4" %}
+            <video autoplay preload playsinline class="" height="100%" loop muted width="100%">
+              <source src="./images/{{ publication.image_mouseover }}" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            {% endif %}
+            <img alt="{{ publication.title }}" src="./images/{{ publication.image }}" />
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="content">
+            <h3 class="publication-title"><a href="{{ publication.project_page }}">{{ publication.title }}</a></h3>
+            <div class="publication-authors">
+              {% for author_id in publication.authors %}
+              {% assign author = site.data.authors[author_id] %}
+              <span class="author-block {% if author.is_me %}author-me{% endif %}">
+                {% if author.is_me %}
+                {{ author.first_name }} {{author.middle_name}} {{ author.last_name }}{% if forloop.last == false %},{%
+                endif %}
+                {% else %}
+                <a href="{{ author.website }}">{{ author.first_name }} {{ author.middle_name }} {{ author.last_name
+                  }}</a>{% if forloop.last == false %},{% endif %}
+                {% endif %}
+              </span>
+              {% endfor %}
+            </div>
+            <div class="publication-venue">
+              <span>{{ publication.venue }}</span>
+              {% for award in publication.awards %}
+                <span class="publication-venue-emph">{{ award }}<span>
+              {% endfor %}
+            </div>
+            <p class="publication-description">{{ publication.description }}</p>
+            <!-- Publication Links. -->
+            <div class="publication-links buttons field has-addons">
+              {% if publication.project_page %}
+              <a class="external-link button is-small is-ghost" href="{{ publication.project_page }}">
+                <span class="icon"><i class="fas fa-globe-asia"></i></span>
+                <span>Project Page</span>
+              </a>
+              {% endif %}
+
+<!--               <a class="external-link button is-small is-ghost" href="https://arxiv.org/pdf/{{ publication.arxiv }}.pdf">
+                <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                <span>PDF</span>
+              </a> -->
+
+              {% if publication.paper %}
+              <a class="external-link button is-small is-ghost" href="{{ publication.paper }}">
+                <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                <span>PDF</span>
+              </a>  
+              {% endif %} 
 
 
-    <div id='footer' class='vspace-top'>
-    <div>
+              {% if publication.arxiv %}
+              <a class="external-link button is-small is-ghost" href="https://arxiv.org/abs/{{ publication.arxiv }}">
+                <span class="icon"><i class="ai ai-arxiv"></i></span>
+                <span>arXiv</span>
+              </a>
+              {% endif %}
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+              {% if publication.video %}
+              <a class="external-link button is-small is-ghost" href="{{ publication.video }}">
+                <span class="icon"><i class="fab fa-youtube"></i></span>
+                <span>Video</span>
+              </a>                
+              {% endif %}
 
-<i>Last modified on August 4, 2022. Design inspired from Vincent Sitzmann. </i>
+              {% if publication.feature %}
+              <a class="external-link button is-small is-ghost" href="{{ publication.feature }}">
+                <span class="icon"><i class="fa fa-newspaper"></i></span>
+                <span>Feature Post</span>
+              </a>                
+              {% endif %}              
+
+
+              {% if publication.github %}
+              <a class="external-link button is-small is-ghost" href="https://github.com/{{ publication.github }}">
+                <span class="icon"><i class="fa fab fa-github"></i></span>
+                <span>Code</span>
+              </a>
+              {% endif %}
+            </div>
+            <!--/ Publication Links. -->
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content footer-links has-text-centered">
+        <a href="mailto:{{ site.email }}">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a class="external-link" href="https://github.com/{{ site.github_username }}">
+          <i class="fab fa-github"></i>
+        </a>
+        <a class="external-link" href="https://scholar.google.com/citations?user={{ site.google_scholar }}">
+          <i class="ai ai-google-scholar"></i>
+        </a>
+      </div>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-8">
+          <div class="content">
+            <!-- <p>
+              Feel free to <a href="https://github.com/keunhong/keunhong.github.io">borrow this template</a>.
+            </p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 </body>
 

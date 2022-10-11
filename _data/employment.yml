@@ -1,0 +1,38 @@
+- company: Carnegie Mellon University
+  description: Graduate Research Assistant. Research on Out‑of‑distribution (O.O.D.) generalization, multi‑view geometry, and self‑supervised auto-labeling.
+  dates: "Aug 2019 - Current"
+  location: Pittsburgh, PA, USA
+
+- company: Apple
+  description: >-
+    Research Scientist Intern in the Video Computer Vision team.
+    Research on meta‑learning and Out-of-Distribution domain generalization.
+  dates: "May 2022 - Aug 2022"
+  location: Sunnyvale, CA, USA
+
+- company: Apple
+  description: >-
+    Research Scientist Intern in the Video Computer Vision team.
+    Research on <a href="https://latentfusion.github.io">active labeling, self‑supervised learning, and O.O.D. detection.</a>
+  dates: "May 2021 - Aug 2021"
+  location: Sunnyvale, CA, USA
+
+- company: Apple
+  description: >- 
+    Research Scientist Intern in the Video Computer Vision team.
+    Research on <a href="https://latentfusion.github.io">affordable setups to generate 3D groundtruth for computer vision applications.</a>
+  dates: "May 2021 - Aug 2021"
+  location: Sunnyvale, CA, USA
+
+- company: Carnegie Mellon University
+  description: Exploration & mapping for search and rescue, where robots must share information in realtime.0
+  dates: "Oct 2013 - Jul 2015"
+  location: Pittsburgh, PA, USA
+
+
+- company: Indian Institute of Science 
+  description: >-
+    Software Engineering Intern. Optimized performance of JGit, reducing push times from hours to seconds.
+    Implemented multi-master support for Gerrit Code Review.
+  dates: "May 2012 - Aug 2012"
+  location: Bangalore, India
