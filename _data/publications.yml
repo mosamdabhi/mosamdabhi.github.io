@@ -5,7 +5,7 @@
   project_page: "https://multiview-bootstrapping-in-wild.github.io"
   github: mosamdabhi/mbw
   arxiv: 2210.01721
-  image: mbw_before.png
+  image: mbw_before.jpg
   paper: https://arxiv.org/pdf/2210.01721.pdf
   image_mouseover: mbw_after.mp4
   authors:
@@ -24,7 +24,7 @@
   github: mosamdabhi/neural-shape-prior
   paper: https://arxiv.org/pdf/2110.11599.pdf
   arxiv: 2110.11599
-  image: mv-nrsfm_before.png
+  image: mv-nrsfm_before.jpg
   video: https://youtu.be/Jx7mJ_D88gg
   feature: https://www.adelaide.edu.au/aiml/news/list/2022/08/01/new-ai-tech-to-bring-human-like-understanding-of-our-3d-world
   image_mouseover: mv-nrsfm_after.mp4
@@ -41,7 +41,7 @@
   venue: RSS, 2019
   description: "Representing environment using Gaussian Mixture Models (GMMs) over voxel grids enables map transfer from Mars to Earth in 21 seconds compared to 1260 seconds."
   paper: http://www.roboticsproceedings.org/rss15/p61.pdf
-  image: rss_before.png
+  image: rss_before.jpg
   video: https://youtu.be/-XADDZa4J0Y
   image_mouseover: rss_after.mp4
   authors:
@@ -77,7 +77,7 @@
   venue: Robotics Institute, CMU (Technical Report), 2018
   description: "By storing crucial control policies, you can re-use them at a later stage without spending valuable compute resources on a resource-constrained Micro Air Vehicle (MAV)."
   paper: https://www.ri.cmu.edu/wp-content/uploads/2019/06/REPC_TR.pdf
-  image: epc_before.png
+  image: epc_before.jpg
   image_mouseover: epc_after.mp4
   video: https://youtu.be/h9CG5R539gI
   authors:
