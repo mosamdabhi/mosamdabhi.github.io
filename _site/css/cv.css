@@ -13,5 +13,3 @@ h2 { margin-top: 0.5em !important; margin-bottom: 0.3em !important; }
 .columns { margin-bottom: 0 !important; }
 
 @media print { html, body { height: auto; font-size: 9pt; /* changing to 10pt has no impact */ } }
-
-/*# sourceMappingURL=cv.css.map */
