@@ -1,7 +1,7 @@
 - id: mbw
   title: "MBW: Multi-view Bootstrapping in the Wild"
   venue: NeurIPS, 2022
-  description: "By enforcing temporal along with spatial consistencies, MBW carries out Out-of-Distribution (OOD) detection for auto-labeling at scale in a low-shot learning fashion."
+  description: "By enforcing temporal along with spatial consistencies via neural priors, MBW carries out Out-of-Distribution (OOD) detection for auto-labeling at scale in a low-shot learning fashion."
   project_page: "https://multiview-bootstrapping-in-wild.github.io"
   github: mosamdabhi/mbw
   data: https://github.com/mosamdabhi/mbw-data
