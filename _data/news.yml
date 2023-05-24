@@ -1,7 +1,8 @@
 
 - date: June 2023
   description: >-
-    I will be joining Apple's AI Research team as a research scientist intern to investigate geometric reasoning; specifically investigating methods for exploiting symmetries in graph-structured data to enable out-of-distribution generalization.
+    I will be joining Apple's AI Research team as a research scientist intern. The focus will be on exploring symmetry groups and designing equivariant architectures through structured representation learning, like graphs, to implicitly induce reasoning.
+
 
 - date: Oct 2022
   description: >-
