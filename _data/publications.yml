@@ -2,7 +2,7 @@
   title: "3D-LFM: Lifting Foundation Model"
   venue: 
   description: "A universal 2D-3D lifting model, that processes diverse objects without category-specific knowledge. It uses transformers' permutation equivariance and geometric consistency to handle camera rotations, standardizing shape representation in a canonical frame."
-  project_page: "https://https://3dlfm.github.io"
+  project_page: "https://3dlfm.github.io"
   github: mosamdabhi/3dlfm
   data: 
   arxiv: 2312.11894
