@@ -12,8 +12,8 @@
   image_mouseover: rat4d_after.mp4
   authors:
     - mosam
-    - laszlo
     - simonlucey
+    - laszlo
     
 - id: 3dlfm
   title: "3D-LFM: Lifting Foundation Model"
