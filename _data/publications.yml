@@ -1,3 +1,19 @@
+- id: rat4d
+  title: "RAT4D: Rig and Animate any object without Templates in 4D"
+  venue: Coming soon...
+  description: "Create 3D/4D rigs and models of any deformable object in the world without templates from a single video captured on a smartphone - a tool for mapping the spatial world."
+  project_page: 
+  github: mosamdabhi/rat4d
+  data: 
+  arxiv: 
+  image: rat4d_before.jpg
+  video: 
+  paper: 
+  image_mouseover: rat4d_after.mp4
+  authors:
+    - mosam
+    - simonlucey
+    - laszlo
 - id: 3dlfm
   title: "3D-LFM: Lifting Foundation Model"
   venue: CVPR, 2024
