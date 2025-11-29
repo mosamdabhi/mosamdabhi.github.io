@@ -3,6 +3,61 @@ mosam:
   last_name: Dabhi
   website: https://mosamdabhi.github.io/
   is_me: true
+mukai:
+  first_name: Mukai
+  last_name: Yu
+  website: https://tomnotch.com
+louise:
+  first_name: Liuyue
+  last_name: Xie
+  website: https://www.linkedin.com/in/liuyuex/
+george:
+  first_name: George
+  last_name: Wei
+avik:
+  first_name: Avik
+  last_name: Kuthiala
+ce:
+  first_name: Ce
+  last_name: Zheng
+ananya:
+  first_name: Ananya
+  last_name: Bal
+liting:
+  first_name: Liting
+  last_name: Wen
+taru:
+  first_name: Taru
+  last_name: Rustagi
+ethan:
+  first_name: Ethan
+  last_name: Lai
+sushil:
+  first_name: Sushil
+  last_name: Khyalia
+rohan:
+  first_name: Rohan
+  last_name: Choudhury
+morteza:
+  first_name: Morteza
+  last_name: Ziyadi
+xu:
+  first_name: Xu
+  last_name: Zhang
+hao:
+  first_name: Hao
+  last_name: Yang
+sebastian:
+  first_name: Sebastian
+  last_name: Scherer
+  website: https://www.ri.cmu.edu/ri-faculty/sebastian-scherer/
+chris:
+  first_name: Christopher
+  last_name: Fusco
+shinfang:
+  first_name: Shin-Fang
+  last_name: Ch'ng
+  website: https://sfchng.github.io
 chaoyang:
   first_name: Chaoyang
   last_name: Wang

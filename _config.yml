@@ -22,18 +22,38 @@
 # artifically intelligent (AI) systems that can "think", "reason", and "imagine" for themselves. Such an intelligence should hold the key to solve the problems of Out-of-distribution (O.O.D.) generalization, 
 # lifelong learning via abstraction, and the problem of handling catastrophic forgetting, prevelant in modern AI methods. 
 
+# title: Mosam Dabhi
+# name: Mosam Dabhi
+# position: PhD Student
+# email: mosam.dabhi@gmail.com
+# description: >-
+  
+#   I am a Ph.D. candidate at the <a href="https://www.ri.cmu.edu/">Robotics Institute, Carnegie Mellon University</a>, advised by <a href="https://scholar.google.com/citations?user=vmAe35UAAAAJ&hl=en">Prof. Simon Lucey</a> and <a href="https://scholar.google.com/citations?user=Wdnc-mEAAAAJ&hl=en">Prof. Laszlo Jeni</a>. Previously, worked with <a href="https://shield.ai/company-executives/">Prof. Nathan Michael</a> on making drones operate intelligently.
+#   <br><br>  
+#   My research establishes the foundations of <b>Physical Intelligence</b>. I develop <b>Correspondence-Aware Architectures</b> that enable autonomous systems to reason about physical dynamics without relying on massive supervision.
+#   <br><br>
+#   Previously: Research Scientist Intern at <b>Apple (Vision Pro)</b> for 5 years.
+
 title: Mosam Dabhi
 name: Mosam Dabhi
-position: PhD Student
+position: Ph.D. Candidate
 email: mosam.dabhi@gmail.com
 description: >-
+  I am a PhD candidate at the <a href="https://www.ri.cmu.edu/">Robotics Institute, Carnegie Mellon University</a>, advised by <a href="https://scholar.google.com/citations?user=vmAe35UAAAAJ&hl=en">Prof. Simon Lucey</a> and <a href="https://scholar.google.com/citations?user=Wdnc-mEAAAAJ&hl=en">Prof. Laszlo Jeni</a>. Prior to PhD, I worked with <a href="https://shield.ai/company-executives/">Prof. Nathan Michael</a> on intelligent drone autonomy.
 
-
-  PhD student at the Robotics Institute, Carnegie Mellon University (CMU) with [Simon Lucey](https://scholar.google.com/citations?user=vmAe35UAAAAJ&hl=en) and [Laszlo Jeni](https://laszlojeni.com). Before that, I worked with [Nathan Michael](https://shield.ai/about-us/company-executives/nathan-michael/) at CMU on making drones operate intelligently.
   
+  My research lays the foundations of <b>Physical Intelligence</b> via <b>correspondence-aware architectures</b> that enable autonomous systems to reason about real-world dynamics <b>without massive supervision</b>.
 
-  Purpose: Solving spatial intelligence merging existing data streams on internet with spatial signals (3D) to lead the base for intelligence that has physical reasoning.
   
+  Previously: Research Scientist Intern at <b>Apple (Vision Pro Team)</b> for 5 consecutive summers.
+
+# My research establishes the foundations of Physical Intelligence, developing Architectures that enable autonomous systems to reason about physical dynamics without relying on massive supervision
+# My research is on developing representations and architectures that enable autonomous systems to reason about physical dynamics without relying on massive supervision.
+# <br><br>
+# My research focuses on creating the perception backbone for robotics, bridging the gap between visual understanding and physical interaction.# <br><br>
+# PhD student at the Robotics Institute, Carnegie Mellon University (CMU) with [Simon Lucey](https://scholar.google.com/citations?user=vmAe35UAAAAJ&hl=en) and [Laszlo Jeni](https://laszlojeni.com). Before that, I worked with [Nathan Michael](https://shield.ai/about-us/company-executives/nathan-michael/) at CMU on making drones operate intelligently.
+  
+# Purpose: Solving spatial intelligence merging existing data streams on internet with spatial signals (3D) to lead the base for intelligence that has physical reasoning.
 # In my opinion: "AI could enable the creation of a versatile language through which all the existing scientific fields could be expressed."
 
 # I am a Ph.D. student at the Robotics Institute, Carnegie Mellon University (CMU) where I investigate uncovering the representations that could be used as implicit priors and act as a placeholder for human visual intelligence.

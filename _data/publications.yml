@@ -1,20 +1,75 @@
+
+    
+- id: usf
+  title: "Unified Spherical Frontend: Learning Rotation-Equivariant Representations"
+  venue: In Submission (2025)
+  # description: "A sensor-agnostic vision frontend that maps any camera geometry (fisheye, pinhole, 360) to a unified spherical representation, enabling truly hardware-agnostic perception."
+  description: "A sensor-agnostic vision frontend that maps any camera geometry: fisheye, pinhole, or 360° into a unified spherical representation. This architectural invariance enables perception systems to deploy across diverse hardware platforms without retraining."
+  arxiv: 2511.18174
+  image: usf.png
+  image_mouseover: usf.mp4
+  authors:
+    - mukai
+    - mosam
+    - louise
+    - sebastian
+    - laszlo
+
 - id: rat4d
   title: "RAT4D: Rig and Animate any object without Templates in 4D"
-  venue: Coming soon...
-  description: "Create 3D/4D rigs and models of any deformable object in the world without templates from a single video captured on a smartphone - a tool for mapping the spatial world."
+  venue: WACV 2026
+  # description: "Template-free creation of 3D/4D rigs for any deformable object from a single video. Uses kinematic constraints to generate re-animatable parametric digital twins."
+  # description: "We introduce a template-free method to generate kinematic rigs for arbitrary deformable objects from a single video. By enforcing kinematic consistency, we create re-animatable digital twins suitable for physical simulation and manipulation planning."
+  description: "Template-free method to rig any deformable objects from a single video, yielding kinematically consistent, re-animatable parametric digital twins for phyiscal simulation and manipulation planning."
   project_page: "https://rat4d.github.io"
-  github: mosamdabhi/rat4d
-  data: 
-  arxiv: 
   image: rat4d_before.jpg
   video: https://storage.googleapis.com/learn_api_splatbucket/overview.mp4
-  paper: 
   image_mouseover: rat4d_after.mp4
   authors:
     - mosam
     - simonlucey
     - laszlo
-    
+
+- id: maverix
+  title: "MAVERIX: A Benchmark for Audio-Visual Reasoning in Dynamic Environments"
+  venue: AAAI 2026
+  description: "A comprehensive benchmark establishing new standards for multi-modal physical intelligence. We evaluate audio-visual reasoning capabilities in dynamic, real-world scenarios, shifting the focus from static perception to actionable reasoning."
+  project_page: "https://maverix.github.io"
+  arxiv: 2503.21699
+  image: maverix.webp
+  image_mouseover: 
+  paper: 
+  show_first_n_authors: 4
+  authors:
+    - louise
+    - george
+    - avik
+    - ce
+    - ananya
+    - mosam
+    - liting
+    - taru
+    - ethan
+    - sushil
+    - rohan
+    - morteza
+    - xu
+    - hao
+    - laszlo
+
+- id: 3dlfm-time
+  title: "Object Agnostic 3D Lifting in Space and Time"
+  venue: 3DV 2025
+  description: "Extending the 3D-LFM to the temporal domain. We introduce windowed temporal attention to enforce kinematic smoothness in 3D reconstructions, a critical requirement for stable robotic control."
+  paper: https://ieeexplore.ieee.org/abstract/document/11125557?casa_token=BnkDGZMH0lYAAAAA:ML-fvYBcNAlJhopgo8IlP-_ioJjO6oVT_eHK3glAPME6G7nhwEvTgYfCBEyhhNByJvla09Qu 
+  image: 3dlfm_time.png
+  image_mouseover: 3dlfm_time.mp4
+  authors:
+    - chris
+    - shinfang
+    - mosam
+    - simonlucey
+
 - id: 3dlfm
   title: "3D-LFM: Lifting Foundation Model"
   venue: CVPR, 2024
@@ -97,6 +152,7 @@
   video: https://youtu.be/_-KmGhP0HTQ
   image: iser182.jpg
   image_mouseover: hsv_after.mp4
+  show_first_n_authors: 4
   authors:
     - alexspitzer
     - xyang
